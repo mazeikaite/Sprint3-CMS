@@ -1,0 +1,20 @@
+{
+    "name": "dovile/cms",
+    "description": "CMS Sprint3",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dovile",
+            "email": "dovilemazeikaite@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "src/models/"
+        }
+    }
+}
